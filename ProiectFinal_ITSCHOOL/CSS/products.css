@@ -1,0 +1,101 @@
+/* SINGLE PRODUCT PAGE */
+
+body {
+	overflow-x: hidden;
+}
+
+.single-product {
+	margin-bottom: 30px;
+}
+
+.image1 {
+	margin-top: 70px;
+	width: 550px;
+	height: 430px;
+	margin-left: 100px;
+}
+
+.linkShop {
+	color: black;
+}
+
+.linkShop:hover {
+	color: #e5aaae;
+}
+
+.infoProdus {
+	margin-top: 60px;
+}
+
+.buttonAddToCart {
+  background-color: #e5aaae;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.buttonAddToCart:hover {
+  background-color: #f4d4dc;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonAddToCart:active {
+  background-color: #e5aaae;
+  box-shadow: 0 5px #f4d4dc;
+  transform: translateY(4px);
+}
+
+.input {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	width: 50px;
+	font-size: 15px;
+	margin-right: 10px;
+	border: 1px solid #e5aaae;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.fas.fa-shopping-cart {
+	margin-left: 10px;
+}
+
+.details {
+	margin-top: 15px;
+	margin-right: 200px;
+}
+
+.detailsh3 {
+	margin-top: 20px;
+}
+
+.single-product h4 {
+	font-size: 22px;
+	margin: 20px 0;
+}
+
+.single-product select {
+	padding: 10px;
+	border: 1px solid #e5aaae;
+}
+
+.single-product select:focus {
+	outline: none;
+}
+
+.fas.fa-award {
+	color: #e5aaae;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1600px) {
+	.image1 {
+		margin-left: 250px;
+	}
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY SKIN - ABOUT US</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/about.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/5a53c3739f.js" crossorigin="anonymous"></script>
+	<script defer src="./javascript/login.js"></script>
+<body>
+
+<!-- NAVBAR -->
+
+<div class="banner">
+	<nav class="navbar navbar-expand-lg navbar-light bg-pink">
+	  <a class="navbar-brand" href="index.html"><img src="images/logo_transparent.png"></a>
+	  
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="shop.html">Shop</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active" href="about.html">About Us</a>
+	      </li>
+	      
+	    </ul>
+
+	    <ul class="navbar-nav ml-auto">
+
+	      <li class="nav-item">
+	      	<button type="button" id="buttonIdLogin" class="btn btn-link">Login</button>
+	  	  </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html">Contact</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="nav-link" href="#">
+	      		<i class="fas fa-search"></i>
+	      	</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="nav-link" href="shop.html#contentsection">
+	      		<i style="color: #e5aaae" class="fas fa-shopping-cart"></i>
+	      	</a>
+	      </li>  
+	      
+	    </ul>
+	  </div>
+	</nav>
+</div>
+
+	<br>
+
+<!-- INTRODUCTION CONTAINER -->
+
+<div class="container">
+	<div class="row">
+		<h2>WE ARE MYSKIN</h2>
+		<p>MYSKIN was created in 2019 by our dermatologist, Mihaela, who wanted to better serve her patients with easier access to the treatments their skin needed. From that day through today, our focus is providing the highest quality products and straight-from-the-experts information to guide you through your skin care journey.</p>
+		<h2>IS GOOD SKINCARE ONLY ABOUT SKIN?</h2>
+		<p>We believe that the best skincare is the kind of care that goes deeper than skin. Not just to make us look better, but make us feel and act better. It is care for our well being and self-esteem, care about the choices we make, the values we respect, and care for the environmental footprint we leave. We insist on truly effective ingredients, honest claims, environmentally friendly packaging, care, passion and respect. Because a radiant heart leads to radiant skin.</p>	
+	</div>
+</div>
+
+<!-- ICONS CONTAINER -->
+
+<div class="container containerIcons">
+	<div class="row">
+		<div class="col-lg-3 zoom">
+			<i style="color: #e5aaae;" class="fas fa-recycle aboutUsIcons"></i>
+			<h6 class="titleIconsAbout">Fully recyclable</h6>
+		</div>
+		<div class="col-lg-3 zoom">
+			<i style="color: #e5aaae" class="far fa-heart aboutUsIcons"></i>
+			<h6 class="titleIconsAbout">Cruelty free</h6>
+		</div>
+		<div class="col-lg-3 zoom">
+			<i style="color: #e5aaae" class="fas fa-leaf aboutUsIcons"></i>
+			<h6 class="titleIconsAbout">100% natural</h6>
+		</div>
+		<div class="col-lg-3 zoom">
+			<i style="color: #e5aaae" class="far fa-smile-beam aboutUsIcons"></i>
+			<h6 class="titleIconsAbout">Customer care</h6>
+		</div>
+	</div>
+</div>
+
+<!-- LOGIN CONTAINER -->
+
+<div class="containerLogin">
+	<div class="popup">
+		<div class="popup-content">
+			<i class="far fa-times-circle close" id="closeButton"></i>
+			<img class="popup-image" src="images/logo_transparent.png" alt="logo">
+			<form id="formLogin" autocomplete="off">
+				<input type="text" id="username" placeholder="Username">
+				<input type="password" id="password" placeholder="Password">
+			</form>
+				<a href="#" id="login" class="buttonLogin">Login</a>
+				<div id="helloMessage"></div>
+		</div>	
+	</div>
+</div>
+
+<!-- OURPEOPLE CONTAINER -->
+
+<h2 id="cardPeople">Our People</h2>
+
+<div class="card-deck mx-auto">
+	<div class="card cardOurPeople">
+	  <img class="card-img-top card-img-topOurPeople" src="images/person1.jpg" alt="Card image cap">
+	  <div class="card-body card-bodyOurPeople">
+	    <h5 class="card-title card-titleOurPeople">Amanda Middleton</h5>
+	    <p class="card-text card-textOurPeople">She is a very dedicated and unique person. Her passion and joy is the perfect combination for our team.</p>
+	  </div>
+	</div>
+
+	<div class="card cardOurPeople">
+	  <img class="card-img-top card-img-topOurPeople" src="images/person2.png" alt="Card image cap">
+	  <div class="card-body card-bodyOurPeople">
+	    <h5 class="card-title card-titleOurPeople">Mihaela Avram</h5>
+	    <p class="card-text card-textOurPeople">Mihaela is the most creative of us all. She is a dermatologist. She came up with the idea of MYSKIN after wanting to better serve her clients.</p>
+	  </div>
+	</div>
+
+	<div class="card cardOurPeople">
+	  <img class="card-img-top card-img-topOurPeople" src="images/person3.jpg" alt="Card image cap">
+	  <div class="card-body card-bodyOurPeople">
+	    <h5 class="card-title card-titleOurPeople">Britney Huan</h5>
+	    <p class="card-text card-textOurPeople">Britney is the one who came up with all the products designs.</p>
+	  </div>
+	</div>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+	<div class="main-content">
+		<div class="left box">
+			<h2 class="borderh2">About us</h2>
+			<p>We believe that the best skincare is the kind of care that goes deeper than skin. Not just to make us look better, but make us feel and act better. It is care for our well being and self-esteem, care about the choices we make, the values we respect, and care for the environmental footprint we leave.</p>
+			<div class="social">
+				<a href="https://www.facebook.com/"><span class="fab fa-facebook-f iFooter"></span></a>
+				<a href="https://twitter.com/?lang=ro"><span class="fab fa-twitter iFooter"></span></a>
+				<a href="https://www.instagram.com/"><span class="fab fa-instagram iFooter"></span></a>
+				<a href="https://www.youtube.com/"><span class="fab fa-youtube iFooter"></span></a>
+			</div>
+		</div>
+
+		<div class="center box">
+			<h2 class="borderh2">Address</h2>
+			<div class="content">
+				<div class="place">
+					<a href=""><span class="fas fa-map-marker-alt iFooter"></span></a>
+					<span class="text">Timisoara, Romania</span>
+				</div>
+				<div class="phone">
+					<a href=""><span class="fas fa-phone-alt iFooter"></span></a>
+					<span class="text">+40 374 747 983</span>
+				</div>
+				<div class="email">
+					<a href="mailto:iuliuta.maria@gmail.com"><span class="fas fa-envelope iFooter" ></span></a>
+					<span class="text">myskin@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="right box">
+			<h2 class="borderh2">Contact us</h2>
+			<div class="content">
+				<form action="#">
+					<div class="email">
+						<div class="text">Email *</div>
+						<input type="email" required>
+					</div>
+					<div class="msg">
+						<div class="text">Message *</div>
+						<textarea rows="2" cols="25" required></textarea>
+					</div>
+					<div class="btnTextarea">
+						<button type="submit" class="buttonFooter">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="bottom">
+		<center>
+			<span class="credit">Created By <a href="">MYSKIN</a></span>
+			<span class="fas fa-copyright"><span> 2020 All rights reserved.</span></span>
+		</center>
+	</div>
+</footer>
+	
+</body>
+</html>

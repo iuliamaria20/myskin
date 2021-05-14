@@ -1,0 +1,128 @@
+/* HEADER MYSKIN */
+
+.how-img img {
+    width: 100%;
+    max-width: 100%;    
+}
+
+.textHeader {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.productsBeforeShop {
+	font-weight: lighter;
+	padding-top: 20px;
+}
+
+.buttonShopNow {
+  background-color: #e5aaae;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.buttonShopNow:hover {
+  background-color: #f4d4dc;
+  color: white;
+}
+
+.buttonShopNow:active {
+  background-color: #e5aaae;
+  box-shadow: 0 5px #f4d4dc;
+  transform: translateY(4px);
+}
+
+/* NEWSLETTER SECTION */
+
+.emailNewsletter {
+	display: inline-block;
+	padding: 3px;
+	width: 50%;
+}
+
+#newsletter {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#newsletter p {
+	margin: 30px auto;
+	font-size: 15px;
+
+}
+
+.lineNewsletter {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.lineNewsletter i {
+	background: #e5aaae;
+	width: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+.tbox,
+.btnNews {
+	border: none;
+	outline: none;
+}
+
+.tbox {
+	width: 0px;
+	transition: 0.6s;
+}
+
+.lineNewsletter:hover > .tbox, .tbox:focus {
+ 	width: 260px;
+ 	padding: 0 10px;
+}
+
+.btnNews {
+	background: #e5aaae;
+	color: white;
+	padding: 0 10px;
+	text-transform:  uppercase;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+}
+
+.btnNews:focus {
+	outline: none;
+}
+
+/* SKINCARE ROUTINE CARD GROUP */
+
+.card-group {
+	margin-top: 20px;
+}
+
+.textCard {
+	text-align: center;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.pinkText {
+	color: #e5aaae;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+	.how-img img {
+		display: none;
+	}
+	.navbar-brand img {
+		display: none;
+	}
+}

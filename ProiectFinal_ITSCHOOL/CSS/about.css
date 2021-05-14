@@ -1,0 +1,60 @@
+/* MEET OUR TEAM SECTION */
+
+.card-deck {
+	width: 1100px;
+	height: 200px;
+	margin-bottom: 350px;
+	margin-top: 10px;
+}
+
+.cardOurPeople {
+	background-color: #e5aaae;
+}
+
+.card-deck .card {
+	background-color: #e5aaae;
+}
+
+#cardPeople {
+	text-align: center;
+	color: #e5aaae;
+	letter-spacing: 4px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/* ICONS */
+
+.fa-smile-beam,
+.fa-leaf,
+.fa-heart,
+.fa-recycle {
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.containerIcons {
+	text-align: center;
+}
+
+.titleIconsAbout {
+	font-size: 20px;
+}
+
+/* ZOOM ICONS */
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+	.card-deck {
+	width: 50%;
+	margin-bottom: 1150px;
+	}
+}
